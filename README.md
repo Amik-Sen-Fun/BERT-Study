@@ -7,8 +7,7 @@
 - The way to understand BERT is to go as :
 
 ```mermaid
-graph LR
-A[Attention] --> B[Transformers] --> C[BERT]
+Attention --> Transformers --> BERT
 ```
 
 - Let's try to skip them for now and move on :p, we will come back if needed 
