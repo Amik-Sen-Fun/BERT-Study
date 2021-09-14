@@ -41,4 +41,6 @@ After breaking into subwords BERT doesnot combine them, instead it uses them as 
 NOTE: The FastText Model had information about subwords also.
 ```
 - In BERT Model Token some of the words start with **"##"** these words denotes the subword 
-- 
+
+## Fine Tuning Bert
+- BERT Models have too many parameters 
