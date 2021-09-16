@@ -43,4 +43,5 @@ NOTE: The FastText Model had information about subwords also.
 - In BERT Model Token some of the words start with **"##"** these words denotes the subword 
 
 ## Fine Tuning Bert
-- BERT Models have too many parameters 
+- BERT Models have too many parameters to trains and the weights alone weight around 400 MB
+ 
