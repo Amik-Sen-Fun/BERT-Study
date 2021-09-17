@@ -1,5 +1,15 @@
 # Technical-Project-1-NLP
 
+## NLP with Deep Learning 
+
+- Neural Networks work in NLP because NN work in a continuous space where as text is a discrete space, to bridge this gap Word Embeddings were brought into pictures.
+
+- **Word Embedding** were developed just as a lookup table to cover this gap. They are often pretrained on text corpus from co-occurence statistics.
+
+- PROBLEMS : Initially the word embeddings were applied ina context free manner. Ex. Bank of a river and an Investment Bank. In both sentences the word _Bank_ has a different
+
+- SOLUTION: We started making embedding by keeping the context in the corpus.
+
 ## Key Concepts of BERT 
 
 - This is with reference to the videos of Chris McCormick
@@ -45,3 +55,13 @@ NOTE: The FastText Model had information about subwords also.
 ## Fine Tuning Bert
 - BERT Models have too many parameters to trains and the weights alone weight around 400 MB
 - The Embedding Layers have around 24M weights and the 12 transformers have around 7M X 12 weights with total of 109 M weights hence BERT is very large.
+- For platform like twitter it becomes difficult to run such expensive models as the throughput is very high. So they use a method known as **distillation** to cut down unnecessary weights.  
+
+### Knowledge Distillation 
+
+- **Motivation :** To compress models
+- Why not go with traditional Pruning for compression? _Answer:_ 1. It does not allow changing the model family 2. There might be some architecture dependent problems
+
+- Knowledge Distillation depends on 
+  - Consistency 
+  - Patience 
