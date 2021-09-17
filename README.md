@@ -44,4 +44,4 @@ NOTE: The FastText Model had information about subwords also.
 
 ## Fine Tuning Bert
 - BERT Models have too many parameters to trains and the weights alone weight around 400 MB
- 
+- The Embedding Layers have around 24M weights and the 12 transformers have around 7M X 12 weights with total of 109 M weights hence BERT is very large.
