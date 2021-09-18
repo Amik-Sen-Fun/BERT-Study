@@ -52,7 +52,7 @@ NOTE: The FastText Model had information about subwords also.
 ```
 - In BERT Model Token some of the words start with **"##"** these words denotes the subword 
 
-## Fine Tuning Bert
+## Fine Tuning Bert - 1
 - BERT Models have too many parameters to trains and the weights alone weight around 400 MB
 - The Embedding Layers have around 24M weights and the 12 transformers have around 7M X 12 weights with total of 109 M weights hence BERT is very large.
 - For platform like twitter it becomes difficult to run such expensive models as the throughput is very high. So they use a method known as **distillation** to cut down unnecessary weights.  
@@ -64,4 +64,18 @@ NOTE: The FastText Model had information about subwords also.
 
 - Knowledge Distillation depends on 
   - Consistency 
-  - Patience 
+  - Patience
+## Fine Tuning Bert - 2
+
+- BERT is a very domain specific language: 
+- The Following work can be done by BERT
+  - Classification
+  - Name Entity Relation
+  - Part Of Speech Tagging 
+  - Specific Question Answering
+- The following cannot be done by BERT:
+  - Language Model - Something that can tell you about next word and stuff
+  - Text Generation
+  - Translation
+
+ 
