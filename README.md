@@ -78,4 +78,11 @@ NOTE: The FastText Model had information about subwords also.
   - Text Generation
   - Translation
 
+### Formatting Required for BERT
+- We need to add special tokens at the start and the end of each sentence.
+- We need to pad and Truncate all sentences to a single constant length
+- Explicitly differentiate real tokens from padding tokens with the "attention mask"
+- Some Special Tokens are :
+  - \[SEP\] - Seperator Token used when two sentences are given and we are asked to determine something.
+  - \[CLS\] -  
  
