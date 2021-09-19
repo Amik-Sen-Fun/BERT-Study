@@ -80,9 +80,13 @@ NOTE: The FastText Model had information about subwords also.
 
 ### Formatting Required for BERT
 - We need to add special tokens at the start and the end of each sentence.
-- We need to pad and Truncate all sentences to a single constant length
-- Explicitly differentiate real tokens from padding tokens with the "attention mask"
+- We need to pad and Truncate all sentences to a single constant length, which we can choose but the max length is 512 tokens
+- Explicitly differentiate real tokens from padding tokens with the "attention mask" this is basically a binary array.
 - Some Special Tokens are :
-  - \[SEP\] - Seperator Token used when two sentences are given and we are asked to determine something.
-  - \[CLS\] -  
- 
+  - \[SEP\] - Seperator Token used when two sentences are given and we are asked to determine something._It's id is 102_
+  - \[CLS\] -Stands for classification token. Now, there are 12 transformer layers stacked on to each other, after the 12th layer the [CLS] embedding is passed to the classifier._It's id is 101._
+  - \[PAD\] - Padding token is used to make the length constant and they do have an impact on the result and are computed on. _It's id is 0_
+
+
+
+
