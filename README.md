@@ -18,7 +18,7 @@
 
 - The way to understand BERT is to go as :
 
-```mermaid
+```
 Attention --> Transformers --> BERT
 ```
 
