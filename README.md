@@ -24,6 +24,19 @@ Attention --> Transformers --> BERT
 
 - Let's try to skip them for now and move on :p, we will come back if needed 
 
+## Brief About Attention (Attention is all you need)
+
+- Let's try to understand attention with an example of translation. Suppose you have an english sentence `The cat eats the mouse` and you want to translate it to German. Now, for a computer to do that:
+  - First we will try to encode it in some form of embedding
+  - Second we will try to decode it into the desired language with the help of some decoder.
+ 
+  These are traditionally known as sack-to-sack task. Previosly these tasks we done using RNN and LSTMs.
+  
+- The task was done using RNN as: 
+  - The first word is converted into an embedding.
+  - This embedding is passed through the neural network and converted into a hidden state.
+  - 
+
 - The flow that for now we are gonna follow is something like 
 
 ```
