@@ -1,4 +1,4 @@
-# Natural Language Processing Notes
+# BERT Notes
 
 ## NLP with Deep Learning 
 
