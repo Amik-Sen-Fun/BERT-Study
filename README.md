@@ -1,4 +1,4 @@
-# Technical-Project-1-NLP
+# Natural Language Processing Notes
 
 ## NLP with Deep Learning 
 
